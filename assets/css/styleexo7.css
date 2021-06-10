@@ -1,0 +1,33 @@
+body{
+    background-color: #fff;
+}
+ol{
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid rgb(32, 32, 32);
+}
+.ol1{    
+    background-color: rgb(27, 90, 119);
+}
+.ol2{
+    background-color: rgb(148, 11, 139);    
+}
+.ol3{
+    background-color: rgb(204, 6, 88);    
+}
+li{
+    color: black;
+}
+caption{
+    color: black;
+    caption-side: top;
+    background-color: rgb(27, 90, 119);
+}
+.caption1{
+    background-color: rgb(27, 90, 119);
+}
+.caption2{    
+}
+.caption3{
+}
