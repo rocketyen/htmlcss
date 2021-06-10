@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/styleexo7.css">
+    <title>Exo 7</title>
+</head>
+<body>
+    <form action="/my-handling-form-page" method="post">
+        <caption class="caption1">Votre identité</caption>
+        <div class="div1">            
+            <ol class="ol1">
+                <li><label for="name">Nom :</label>
+                    <input type="text" id="name" name="user_name">
+                </li>
+                <li><label for="surname">Prénom :</label>
+                    <input type="text" id="surname" name="user_surname">
+                </li>
+                <li><label for="mail">Adresse mail : </label>
+                    <input type="text" id="mail" name="user_mail"></input>
+                </li>
+            </ol>
+        </div>        
+        <caption class="caption2">Adresse de livraison</caption>        
+        <div class="div2">                        
+            <ol class="ol2">
+                <li><label for="adresse">Adresse :</label>
+                    <textarea type="text" id="adresse" name="adresse"></textarea>
+                </li>
+                <li><label for="postal_code">Code postal :</label>
+                    <input type="text" id="postal_code" name="user_postal_code">
+                </li>
+                <li><label for="city">Ville : </label>
+                    <input type="text" id="city" name="user_city"></input>
+                </li>
+            </ol>
+        </div>
+        <caption class="caption3">Information de réglement</caption>
+        <div class="div3">            
+            <ol class="ol3">
+                <li><label for="card_type">Type de carte bancaire :</label>
+                    <div><input type="radio" id="card_type" name="card_type"></input>VISA
+                    </div>
+                    <div><input type="radio" id="card_type" name="card_type"></input>Mastercard                    
+                    </div>
+                </li>
+                <li><label for="card_number">Numéro de carte : </label>
+                    <input type="text" id="card_number" name="card_number"></input>
+                </li>
+                <li><label for="security_code">Code de sécurité : </label>
+                    <input type="text" id="security_code" name="security_code"></input>
+                </li>
+                <li><label for="card_name">Nom du titulaire : </label>
+                    <input type="text" id="card_name" name="card_name"></input>
+                </li>
+            </ol>
+        </div>
+        <div class="button">
+            <button type="submit">J'achète</button>
+        </div>
+    </form>
+</body>
+</html>
