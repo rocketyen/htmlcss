@@ -1,0 +1,15 @@
+
+    /* couleur de fond et couleur du texte */
+    body{
+        background-color: #fff;
+        color: black;
+    }
+    /* bordures collées */
+    table{
+    border-collapse: collapse;
+    }
+    /* Mettre une bordure sur les td ET les th */
+    td, th 
+    {
+    border: 1px solid black;
+    }
