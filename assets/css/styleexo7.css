@@ -3,23 +3,24 @@ body{
 }
 ol{
     margin: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border: 2px solid rgb(32, 32, 32);
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.ol1{    
-    background-color: rgb(27, 90, 119);
-}
-.ol2{
-    background-color: rgb(148, 11, 139);    
-}
-.ol3{
-    background-color: rgb(204, 6, 88);    
+fieldset{
+    margin-bottom: 5px;
 }
 li{
     color: black;
 }
+.fieldset1, .legend1{
+    background-color: rgb(27, 90, 119);
+}
+.fieldset2, .legend2{
+    background-color: rgb(148, 11, 139);
+}
+.fieldset3, .legend3{
+    background-color: rgb(204, 6, 88);
+}
 h1{
-    background-color: rgb(0, 0, 0);
     margin-left: 20px;
 }
