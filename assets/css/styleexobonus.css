@@ -1,18 +1,17 @@
 body{
     font-family:Coming Soon, display, swap;
-    background-color: rgb(230, 231, 154);
 }
 .premier li:nth-child(-n+2){
     color: red;
 }
-li:last-child{
-    color: green;
+.premier li:last-child{
+    color: rgb(0, 99, 0);
 }
 ol > li:first-child{
     color: blue;
 }
 ol > li:last-child{
-    color: gray;
+    color: rgb(90, 90, 90);
 }
 p:active{
     color: hotpink;
