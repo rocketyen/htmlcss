@@ -1,0 +1,18 @@
+body{
+    font-family:Coming Soon, display, swap;
+}
+.premier li:nth-child(-n+2){
+    color: red;
+}
+.premier li:last-child{
+    color: green;
+}
+ol > li:nth-child(-n+1) {
+    color: blue;
+}
+ol > li:last-child{
+    color: grey;
+}
+p:active{
+    color: hotpink;
+}
