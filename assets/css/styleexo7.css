@@ -10,11 +10,11 @@ li{
     color: black;
 }
 .fieldset1, .legend1{
-    background-color: rgb(27, 90, 119);
+    background-color: #2574A9;
 }
 .fieldset2, .legend2{
-    background-color: rgb(148, 11, 139);
+    background-color: #9A13B2;
 }
 .fieldset3, .legend3{
-    background-color: rgb(204, 6, 88);
+    background-color: #DB0B5A;
 }
