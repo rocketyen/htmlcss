@@ -1,5 +1,5 @@
 body{
-    font-family:Coming Soon, display, swap;
+    font-family: Coming Soon, display, swap;
 }
 .premier li:nth-child(-n+2){
     color: red;
